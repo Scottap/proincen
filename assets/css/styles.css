@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'MYRIADPROREGULAR';
-	src: url('/assets/fonts/MYRIADPROREGULAR.eot');
-	src: local('MYRIADPROREGULAR'), url('/assets/fonts/MYRIADPROREGULAR.woff') format('woff'), url('/assets/fonts/MYRIADPROREGULAR.ttf') format('truetype');
+	src: url('assets/fonts/MYRIADPROREGULAR.eot');
+	src: local('MYRIADPROREGULAR'), url('assets/fonts/MYRIADPROREGULAR.woff') format('woff'), url('assets/fonts/MYRIADPROREGULAR.ttf') format('truetype');
 }
 
 body {
