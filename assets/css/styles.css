@@ -1,11 +1,13 @@
 @font-face {
-	font-family: 'MYRIADPROREGULAR';
-	src: url('../fonts/MYRIADPROREGULAR.eot');
-	src: local('MYRIADPROREGULAR'), url('../fonts/MYRIADPROREGULAR.woff') format('woff'), url('../fonts/MYRIADPROREGULAR.ttf') format('truetype');
-}
+	font-family: 'MyriadPro-Cond';
+	src: url('../fonts/MyriadPro-Cond.eot?#iefix') format('embedded-opentype'),  url('../fonts/MyriadPro-Cond.otf')  format('opentype'),
+		   url('../fontsMyriadPro-Cond.woff') format('woff'), url('../fontsMyriadPro-Cond.ttf')  format('truetype'), url('../fonts/MyriadPro-Cond.svg#MyriadPro-Cond') format('svg');
+	font-weight: normal;
+	font-style: normal;
+  }
 
 body {
-	font-family: 'MYRIADPROREGULAR', Arial, Helvetica, sans-serif!important;
+	font-family: 'MyriadPro-Cond', Arial, Helvetica, sans-serif!important;
 	font-stretch: condensed;
 }
 
@@ -28,9 +30,17 @@ section#hero1 {
 	margin-bottom: 2.2rem;
 }
 
+section#hero1 span>a {
+	color: white;
+	transition: all 0.8s fluid;
+}
+
+section#hero1 span>a:hover {
+	opacity: 0.7;
+}
 
 section#hero1 h1 {
-	width: 400px;
+	width: 24rem;
 	border: 4px white solid;
 	padding: 20px;
 	color: white
@@ -45,6 +55,15 @@ section#hero2 {
     background-size: cover;
 	background-blend-mode: multiply;
 	margin-bottom: 2.2rem;
+}
+
+section#hero2 span>a {
+	color: white;
+	transition: all 0.8s fluid;
+}
+
+section#hero2 span>a:hover {
+	opacity: 0.7;
 }
 
 section#hero2 h1 {
@@ -63,6 +82,15 @@ section#hero3 {
     background-size: cover;
 	background-blend-mode: multiply;
 	margin-bottom: 2.2rem;
+}
+
+section#hero3 span>a {
+	color: white;
+	transition: all 0.8s fluid;
+}
+
+section#hero3 span>a:hover {
+	opacity: 0.7;
 }
 
 section#hero3 h1 {
@@ -119,7 +147,7 @@ div.vertical-borders div {
 div#innerWhoWeAre {
 	background: #F0EFEA;
     padding: 3rem;
-	padding-bottom: 12.8rem;
+	padding-bottom: 16.13rem;
 }
 
 #innerWhoWeAre p {
@@ -132,7 +160,7 @@ div#innerWhoWeAre {
 }
 
 #whatWeDo div.content {
-	padding: 4rem 1rem 3.1rem 1rem;
+	padding: 4rem 1rem 7.1rem 1rem;
     background: #f0efea;
     line-height: 1;
 }
@@ -140,7 +168,7 @@ div#innerWhoWeAre {
 div#innerPHC {
 	padding: 6rem;
     background: #f0efea;
-    padding-bottom: 12.7rem;
+    padding-bottom: 12rem;
 }
 
 div#innerPHC h4 {
@@ -200,4 +228,44 @@ h3.blue-title {
 
 .blue-title strong {
 	color: white;
+}
+
+section#finalInfo {
+	margin-top: 20px;
+	background: url("../images/texture.png");
+	padding: 4rem;
+	font-size: 1.3rem;
+}
+
+@media (max-width:425px) {
+	section#hero1 h1 {
+		width: 200px;
+		border: 4px white solid;
+		padding: 1rem;
+		color: white;
+		font-size: 1.5rem!important
+	}
+	section#hero2 h1 {
+		width: 200px;
+		border: 4px white solid;
+		padding: 1rem;
+		color: white;
+		font-size: 1.5rem!important;
+	}
+	section#hero3 h1 {
+		width: 200px;
+		border: 4px white solid;
+		padding: 1rem;
+		color: white;
+		font-size: 1.5rem!important
+	}
+	div.is-pulled-down {
+		top: 0;
+	}
+}
+
+@media (max-width:769px;) {
+	div.is-pulled-down {
+		top: 0;
+	}
 }
