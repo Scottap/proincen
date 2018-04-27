@@ -5,5 +5,69 @@
 }
 
 body {
-    font-family: 'MYRIADPROREGULAR', Arial, Helvetica, sans-serif!important;
+	font-family: 'MYRIADPROREGULAR', Arial, Helvetica, sans-serif!important;
+	font-stretch: condensed;
+}
+
+#miVi div {
+	color: #1D71B6;
+	padding-left: 20px;
+	font-size: 0.9rem;
+}
+
+div#innerWhoWeAre {
+	background: #F0EFEA;
+    padding: 3rem;
+	padding-bottom: 12.8rem;
+}
+
+#innerWhoWeAre p {
+	font-size: 0.95rem;
+}
+
+#innerWhoWeAre h4 {
+	font-weight: bold;
+	color: #1D71B6;
+}
+
+#whatWeDo div.content {
+	padding: 4rem 1rem 3.1rem 1rem;
+    background: #f0efea;
+    line-height: 1;
+}
+
+div#innerPHC {
+	padding: 6rem;
+    background: #f0efea;
+    padding-bottom: 14.6rem;
+}
+
+div#innerPHC span {
+	padding: 0.2rem 0.7rem 0 0.7rem;
+    border: 3px solid black;
+	margin-right: 0.5em;
+	color: #1D71B6;
+	border-color: #1D71B6;
+}
+
+div#innerPHC span#innerP {
+	padding-right:1rem;
+}
+
+div#innerPHC span#innerC {
+	padding-right: 0.9rem;
+}
+
+.blue-title {
+	background: #1D71B6;
+	color: white;
+	padding: 20px 0px 3px 15px;
+}
+
+h3.blue-title {
+	margin-bottom: 20px;
+}
+
+.blue-title strong {
+	color: white;
 }
