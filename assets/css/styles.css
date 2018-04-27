@@ -9,6 +9,107 @@ body {
 	font-stretch: condensed;
 }
 
+.navbar-link, a.navbar-item {
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 3px solid white;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    color: white;
+	opacity: 1;
+}
+
+section#hero1 {
+	background: url('../images/24735_medium.jpg'), rgba(0, 222, 31, 0.4);
+    background-size: cover;
+	background-blend-mode: multiply;
+	margin-bottom: 2.2rem;
+}
+
+
+section#hero1 h1 {
+	width: 400px;
+	border: 4px white solid;
+	padding: 20px;
+	color: white
+}
+
+section#hero1 strong {
+	color: white;
+}
+
+section#hero2 {
+	background: url('../images/slide02.jpg'), rgba(198, 222, 31, 0.4);
+    background-size: cover;
+	background-blend-mode: multiply;
+	margin-bottom: 2.2rem;
+}
+
+section#hero2 h1 {
+	width: 400px;
+	border: 4px white solid;
+	padding: 20px;
+	color: white
+}
+
+section#hero2 strong {
+	color: white;
+}
+
+section#hero3 {
+	background: url('../images/slide03.jpg'), rgba(222, 72, 0, 0.4);
+    background-size: cover;
+	background-blend-mode: multiply;
+	margin-bottom: 2.2rem;
+}
+
+section#hero3 h1 {
+	width: 400px;
+	border: 4px white solid;
+	padding: 20px;
+	color: white
+}
+
+section#hero3 strong {
+	color: white;
+}
+
+div.is-pulled-down {
+	position: relative;
+	top: 2rem;
+}
+
+div.vertical-borders {
+	position: relative;
+	top: 2em;
+}
+
+div.vertical-borders div {
+	padding: 5px;
+	border-left: 2px white solid;
+}
+
+.hero-head {
+	background: rgba(233, 233, 233, 0.7);
+}
+
+.owl-prev {
+	font-size: 2em;
+	color:white;
+    background: transparent;
+    border: transparent;
+}
+
+.owl-next {
+	float:right;
+	color: white;
+	font-size: 2em;
+    background: transparent;
+    border: transparent;
+}
+
 #miVi div {
 	color: #1D71B6;
 	padding-left: 20px;
@@ -39,7 +140,13 @@ div#innerWhoWeAre {
 div#innerPHC {
 	padding: 6rem;
     background: #f0efea;
-    padding-bottom: 14.6rem;
+    padding-bottom: 12.7rem;
+}
+
+div#innerPHC h4 {
+	padding-bottom: 2em;
+	font-weight: bold;
+	color: #1D71B6;
 }
 
 div#innerPHC span {
@@ -56,6 +163,29 @@ div#innerPHC span#innerP {
 
 div#innerPHC span#innerC {
 	padding-right: 0.9rem;
+}
+
+div#innerMoreServices {
+	padding: 5rem;
+	padding-bottom: 2rem;
+	background: #f0efea;
+}
+
+div#innerMoreServicesWrapper {
+	padding-left: 0;
+}
+
+div#innerMoreServices h4 {
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+div.columns#innerMoreServicesFC figure {
+	border: 4px solid #9A9A9A;
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
 
 .blue-title {
