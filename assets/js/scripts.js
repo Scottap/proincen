@@ -27,3 +27,7 @@ $('a[href^="#"]').click(function () {
 
     return false;
 });
+
+$(document).ready(function(){
+    $("#header").sticky({topSpacing:0});
+  });

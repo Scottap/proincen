@@ -11,10 +11,30 @@
     <title>Proincen - Sitio web</title>
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 </head>
-<body>
+<body>  
+    <nav class="navbar is-fixed-top">
+                        <div class="navbar-brand">
+                                <a href="#">
+                                    <img src="assets/images/proincen-logo.png" style="width:220px;margin:1rem;" alt="">
+                                </a>
+                                <a role="button" class="navbar-burger burger" data-target="mainMenu" aria-label="menu" aria-expanded="false">
+                                    <span aria-hidden="true"></span>
+                                    <span aria-hidden="true"></span>
+                                    <span aria-hidden="true"></span>
+                                </a>
+                            </div>
+                            <div class="navbar-menu" id="mainMenu">
+                                <div class="navbar-end">
+                                    <a href="#whoWeAre" class="navbar-item">Quiénes somos</a>
+                                    <a href="#whatWeDo" class="navbar-item">Qué hacemos</a>
+                                    <a href="#moreServices" class="navbar-item">Más servicios</a>
+                                    <a href="#contact" class="navbar-item c-list">Contacto</a>
+                                </div>
+                            </div>
+                        </nav>    
     <div class="owl-carousel">
             <section class="hero is-large" id="hero1">
-                    <div class="hero-head">
+                    <div class="hero-head" id="header">
                         <nav class="navbar">
                             <div class="navbar-brand">
                                 <a href="#">
@@ -432,6 +452,7 @@
     </section>
     <script src="assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/jquery.easeScroll.js"></script>
+    <script src="assets/js/jquery.sticky.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/scripts.js"></script>
 </body>

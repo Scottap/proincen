@@ -19,6 +19,28 @@ body {
 	font-weight: bold;
 }
 
+.navbar.is-fixed-bottom, .navbar.is-fixed-top {
+	z-index:1;
+}
+
+.navbar.is-fixed-bottom, .navbar.is-fixed-top a.navbar-item {
+	cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 3px solid black;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    color: black;
+	opacity: 1;	
+	transition: cubic-bezier(0.215, 0.610, 0.355, 1) all 0.5s;
+}
+
+.navbar.is-fixed-bottom, .navbar.is-fixed-top a.navbar-item:hover {
+	color: #1D71B6;
+	border-color: #1D71B6;
+}
+
 .navbar-link, a.navbar-item {
     cursor: pointer;
     font-size: 1.2rem;
