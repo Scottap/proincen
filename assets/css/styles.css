@@ -230,7 +230,7 @@ h3.blue-title {
 	color: white;
 }
 
-div#finalInfo {
+section#finalInfo {
 	margin-top: 20px;
 	background: url("../images/texture.png");
 	padding: 4rem;
@@ -261,6 +261,18 @@ div#finalInfo {
 	}
 	div.is-pulled-down {
 		top: 0;
+	}
+	.navbar-link, a.navbar-item {
+		width: 94%;
+		color: black;
+		border: 4px black solid;
+	}
+	.navbar-burger {
+		color: white;
+	}
+	.image.is-128x128.smaller-mobile {
+		width: 64px;
+		height: 64px;
 	}
 }
 
