@@ -186,6 +186,7 @@ div#innerWhoWeAre {
 #whatWeDo div.content>ul {
 	font-size: 1.1em;
 	margin-left: 1em;
+	list-style-image: url('/assets/images/small-dot.gif');
 }
 
 div#innerPHC {
