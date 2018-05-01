@@ -16,6 +16,33 @@ $(document).ready(function(){
     });
 })();
 
+(function() {
+    var burgerOne = document.querySelector('.burger-one');
+    var menu = document.querySelector('#'+burgerOne.dataset.target);
+    burgerOne.addEventListener('click', function() {
+        burgerOne.classList.toggle('is-active');
+        menu.classList.toggle('is-active');
+    });
+})();
+
+(function() {
+    var burgerTwo = document.querySelector('.burger-two');
+    var menu = document.querySelector('#'+burgerTwo.dataset.target);
+    burgerTwo.addEventListener('click', function() {
+        burgerTwo.classList.toggle('is-active');
+        menu.classList.toggle('is-active');
+    });
+})();
+
+(function() {
+    var burgerThree = document.querySelector('.burger-three');
+    var menu = document.querySelector('#'+burgerThree.dataset.target);
+    burgerThree.addEventListener('click', function() {
+        burgerThree.classList.toggle('is-active');
+        menu.classList.toggle('is-active');
+    });
+})();
+
 $("html").easeScroll();
 
 var $root = $('html, body');
@@ -27,7 +54,3 @@ $('a[href^="#"]').click(function () {
 
     return false;
 });
-
-$(document).ready(function(){
-    $("#header").sticky({topSpacing:0});
-  });

@@ -53,12 +53,24 @@ body {
 	opacity: 1;
 }
 
+a#hiddenBurger {
+	color: #1D71B6;
+}
+
 a.navbar-item.c-list {
 	padding-left: 20px;
 }
 
+button.owl-prev:focus {
+	outline: none;
+}
+
+button.owl-next:focus {
+	outline: none;
+}
+
 section#hero1 {
-	background: url('../images/24735_medium.jpg'), rgba(0, 222, 31, 0.4);
+	background: url('../images/slide01.jpg'), rgba(0, 222, 31, 0.4);
     background-size: cover;
 	background-blend-mode: multiply;
 	margin-bottom: 2.2rem;
@@ -101,7 +113,7 @@ section#hero2 span>a:hover {
 }
 
 section#hero2 h1 {
-	width: 400px;
+	width: 500px;
 	border: 4px white solid;
 	padding: 20px;
 	color: white
@@ -128,7 +140,7 @@ section#hero3 span>a:hover {
 }
 
 section#hero3 h1 {
-	width: 400px;
+	width: 500px;
 	border: 4px white solid;
 	padding: 20px;
 	color: white
@@ -208,7 +220,7 @@ div#innerWhoWeAre {
 #whatWeDo div.content>ul {
 	font-size: 1.1em;
 	margin-left: 1em;
-	list-style-image: url('/assets/images/small-dot.gif');
+	list-style-image: url('/assets/images/new-small-dot.gif');
 }
 
 div#innerPHC {
@@ -312,30 +324,77 @@ section#finalInfo {
 	font-size: 1.3rem;
 }
 
+@media (min-width:1441px) {
+	#whatWeDo div.content>h4 {
+		font-size: 2em;
+	}
+	#whatWeDo div.content>ul {
+		font-size: 1.3em;
+	}
+	#innerWhoWeAre h4 {
+		font-size: 2em;
+	}
+	#innerWhoWeAre p {
+		font-size: 1.3em;
+	}
+	div#innerPHC h4 {
+		font-size: 2em!important;
+	}
+	div#innerPHC {
+		padding-bottom: 14rem;
+	}
+}
+
+@media (max-width:768px) {
+	div.is-pulled-down {
+		position: relative;
+		top: -3em;
+	}
+	section#hero1 div.vertical-borders {
+		top: 12em;
+		left: 23em;
+	}
+	div.vertical-borders {
+		top: 5em;
+	}
+	.navbar.is-fixed-bottom, .navbar.is-fixed-top a.navbar-item {
+		width: 97%;
+	}
+	.navbar-link, a.navbar-item {
+		width: 97%;
+		color: black;
+		border: 4px black solid;
+	}
+}
+
+
 @media (max-width:425px) {
 	section#hero1 h1 {
-		width: 200px;
+		width: 250px;
 		border: 4px white solid;
 		padding: 1rem;
 		color: white;
 		font-size: 1.5rem!important
 	}
 	section#hero2 h1 {
-		width: 200px;
+		width: 250px;
 		border: 4px white solid;
 		padding: 1rem;
 		color: white;
-		font-size: 1.5rem!important;
+		font-size: 1.3rem!important;
 	}
 	section#hero3 h1 {
-		width: 200px;
+		width: 250px;
 		border: 4px white solid;
 		padding: 1rem;
 		color: white;
-		font-size: 1.5rem!important
+		font-size: 1.3rem!important
 	}
 	div.is-pulled-down {
 		top: 0;
+	}
+	div.vertical-borders {
+		top:2em;
 	}
 	.navbar-link, a.navbar-item {
 		width: 94%;
@@ -343,16 +402,15 @@ section#finalInfo {
 		border: 4px black solid;
 	}
 	.navbar-burger {
-		color: white;
+		color: black;
 	}
+	.navbar.is-fixed-bottom, .navbar.is-fixed-top a.navbar-item {
+		width: 94%;
+	}
+
 	.image.is-128x128.smaller-mobile {
 		width: 64px;
 		height: 64px;
 	}
 }
 
-@media (max-width:769px;) {
-	div.is-pulled-down {
-		top: 0;
-	}
-}
